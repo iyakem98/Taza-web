@@ -1,0 +1,49 @@
+.oil1card {
+    border-width: 0ch;
+    width: 400px;
+    height: 350px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.oil1card h3 {
+    z-index: 1000;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.oil1card:hover .imov {
+    background-image: linear-gradient(to bottom , rgb(44, 62, 80, 0.8), rgba(044, 62, 80, 0.8));
+    opacity: 1;
+    box-shadow: 0 0 20px;
+    color: 52, 152, 219;
+}
+
+.oil1card:hover .oil1tx {
+    position: absolute;
+    bottom: 0;
+}
+
+.oil1im {
+    width: 400px;
+    height: 350px;  
+}
+
+.imov {
+   opacity: 0;
+   box-shadow: 0 0 20px;
+   color: rgba(52, 152, 219);
+
+    
+}
+
+.oil1tx {
+    position: absolute;
+    bottom: 0;
+    
+}
+
+

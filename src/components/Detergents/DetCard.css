@@ -1,0 +1,8 @@
+
+.detcard {
+    height: 400px;
+}
+
+.detcard:hover{
+    height: 420px;
+}

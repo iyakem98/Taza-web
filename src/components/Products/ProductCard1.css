@@ -1,0 +1,40 @@
+
+.prod1card {
+    border-width: 0ch;
+    box-shadow: 0 0 10px;
+    width: 400px;
+    height: 480px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: ease-out 0.3s;
+    box-shadow:  0 0 20px #c5c5c5;
+
+}
+
+.prod1card:hover {
+    width: 420px;
+    height: 500px;
+}
+
+.prod1card:hover .btpr1 {
+    width: 230px;
+    box-shadow: inset 230px 0 0 0 #212529;
+    
+}
+
+.prod1txt {
+    font-size: 15px;
+}
+
+.btpr1 {
+    border-width: 0ch;
+    width: 200px;
+    transition: ease-out 0.3s;
+    box-shadow: inset 0 0 0 0 #E8E8E8;
+    
+}
+
+.btpr1:hover {
+    
+}

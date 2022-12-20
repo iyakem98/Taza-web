@@ -1,0 +1,38 @@
+
+.deterhead {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    height: 30vw;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.deterhead::before {
+    content: '';
+    background-image: linear-gradient(to bottom , rgb(9, 26, 61), rgb(71, 120, 185));
+    background-image: url('https://static.wixstatic.com/media/e8ebab_c8260cdf33ce403da93de2eb6a7a30ff~mv2.jpeg/v1/fill/w_1960,h_704,al_b,q_85,usm_0.66_1.00_0.01,enc_auto/e8ebab_c8260cdf33ce403da93de2eb6a7a30ff~mv2.jpeg');
+    background-position: 10%, 10%;
+    background-size: cover;
+    background-attachment: fixed;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 30vw;
+    width: 100%;
+    margin-right: -0px;
+    z-index: -2;
+    opacity: 1;
+    filter: brightness(20%);
+}
+
+.deterhead h1 {
+    font-size: 60px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 200px;
+}

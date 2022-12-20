@@ -1,0 +1,207 @@
+
+.ProductsScreen {
+  
+    
+}
+
+.productsHeader {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    height: 30vw;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.productsHeader::before {
+    content: '';
+    background-image: linear-gradient(to bottom , rgb(9, 26, 61), rgb(71, 120, 185));
+    background-image: url('https://foreignpolicy.com/wp-content/uploads/2021/10/ethiopia-hawassa-women-garment-industry.jpg?w=1500');
+    background-position: 10%, 10%;
+    background-size: cover;
+    background-attachment: fixed;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 30vw;
+    width: 100%;
+    margin-right: -0px;
+    z-index: -2;
+    opacity: 1;
+    filter: brightness(40%);
+}
+
+.productsOverlay {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom , rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+
+    padding-top: 200px;
+    box-shadow: 0 0 20px;
+}
+
+.productsheadh1 {
+    color: white;
+    font-size: 50px;
+
+   
+}
+
+.productsChoice {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.prodCard {
+    width: 400px;
+    height: 200px;
+    box-shadow: 0 0 12px;
+    color: white;
+    border-radius: 0ch;
+}
+
+
+.prodheadbutt {
+    width: 300px;
+    margin-left: 10px;
+    background-color: transparent;
+    color: #3498db;
+    transition: ease-out 0.3s;
+    box-shadow: inset 0 0 0 0 #3498db;
+}
+
+.prodheadbutt:hover {
+    box-shadow: inset 300px 0 0 0 #3498db;
+    color: white;
+    
+}
+
+
+.h2prod {
+    margin-bottom: 100px;
+}
+.cardnim {
+    display: flex;
+}
+.impro1 {
+    width: 1000px;
+    height: 600px;
+    margin-left: 450px;
+    z-index: -1;
+    
+}
+
+.carpr1 {
+    width: 500px;
+    height: 300px;
+    line-height: 40px;
+    margin-left: 200px;
+    margin-top: 40px;
+    position: absolute;
+    color: white;
+    border-width: 0ch;
+    padding: 30px 0px;
+    box-shadow: 0 0 8px #3498db;
+    
+}
+
+.jerrydesc {
+    background-color: #f5f5f5;
+    height: 1200px;
+    margin-top: 100px;
+    box-shadow: 0 0 10px;
+    color: rgb(231, 231, 231);
+    padding-top: 80px;
+    
+    
+}
+
+.jerrylast {
+    height: 600px;
+    background-image: linear-gradient(#2c3e50, #3498db);;
+    padding-top: 100px;
+}
+
+.jerrylast h2 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.jerrylastCard {
+    display: flex;
+    justify-content: space-around;
+}
+
+.carr {
+    height: 350px;
+    width: 400px;
+    background-color: transparent;
+    border-color: white;
+    padding: 50px
+   
+}
+
+.forOil {
+    height: 1800px;
+    padding-top: 100px;
+    
+}
+.forOil h2 {
+    margin-bottom: 100px;
+    font-size: 50px;
+}
+.oilFirst {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
+    
+}
+
+.imOil1 {
+    height: 400px;
+    width: 800px;
+    margin-left: 80px;
+
+}
+
+.carprOil {
+    width: 800px;
+    height: 200px;
+    line-height: 70px;
+    margin-left: 600px;
+    margin-top: 100px;
+    position: absolute;
+    color: white;
+    border-width: 0ch;
+    padding: 60px 0px;
+    
+    
+}
+
+.oilLs {
+    height: 700px;
+    margin-bottom: 100px;
+    box-shadow: 0 0 10px;
+    color: #eeeeee;
+    padding-top: 100px;
+}
+
+.priceq {
+    height: 1100px;
+    background-color: #eeeeee;
+    box-shadow: 0 0 200px;
+    color: #e8e8e8;
+    padding-top: 100px;
+    
+}
+
+.bspro {
+    margin-bottom: 20px;
+}

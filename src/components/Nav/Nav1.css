@@ -1,0 +1,47 @@
+.nav1 {
+    width: 100%;
+    left: 0;
+    right: 0;
+    align-self: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 0px;
+    margin-top: 0px;
+    position: absolute;
+    position: fixed;
+    color: rgb(202, 202, 202);
+    z-index: 2;
+}
+
+.nav1b {
+    width: 100%;
+    left: 0;
+    right: 0;
+    align-self: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 0px;
+    margin-top: 0px;
+    position: absolute;
+    position: fixed;
+    box-shadow: 0 0 12px;
+    color: rgb(202, 202, 202);
+    z-index: 200;
+    
+}
+
+.nav1butt {
+  border-width: 0ch;
+  padding-top: 13px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.nav1links{
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.nav1drop {
+   
+}

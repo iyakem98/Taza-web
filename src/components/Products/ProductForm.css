@@ -1,0 +1,38 @@
+
+.prfr {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px;
+    padding-top: 80px;
+    text-align: left;
+    padding: 80px 40px;
+    box-shadow: 0 0 12px;
+    color: white;
+}
+
+.prfr h3 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.prcn {
+    border-width: 0ch;
+    border-radius: 0ch;
+    border-bottom-width: 1px;
+    
+}
+
+.prbutt {
+    width: 500px;
+    border-width: 0ch;
+    margin-top: 40px;
+    height: 50px;
+    margin-left: 70px;
+    box-shadow: inset 0 0 0 0 #3498db;
+    transition: ease-in 0.3s;
+}
+
+.prbutt:hover {
+    box-shadow: inset 500px 0 0 0 #212529;
+}

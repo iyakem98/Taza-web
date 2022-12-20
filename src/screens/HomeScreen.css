@@ -1,0 +1,237 @@
+.homescreen {
+    margin-bottom: 200px;
+}
+
+.hometop {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 56vw;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 20px;
+    padding-right: 0px;
+    color: #000;
+}
+.hometop::before {
+    content: '';
+    background-image: url('https://foreignpolicy.com/wp-content/uploads/2021/10/ethiopia-hawassa-women-garment-industry.jpg?w=1500');
+    background-position: 10%, 10%;
+    background-size: cover;
+    background-attachment: fixed;
+    left: 0;
+    right: 0;
+    margin-right: -90px;
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 56vw;
+    width: 100%;
+    z-index: -2;
+    opacity: 1;
+    filter: brightness(7%);
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-image: linear-gradient(to bottom , rgb(10, 22, 44), rgb(15, 31, 53));
+}
+.coloroverlay {
+    width: 100%;
+    height: 100%;
+    /*background-image: linear-gradient(to bottom , rgb(0, 0, 0), rgb(0, 0, 0)); */
+    opacity: 0.7;
+  
+}
+
+.hometop h5 {
+    position: absolute;
+    margin-top: -560px;
+    font-size: 20px;
+   left: 0;
+   right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+}
+.hsh1{
+    position: absolute;
+    margin-top: -500px;
+    font-size: 50px;
+   left: 0;
+   right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.hsh4 {
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 325px;
+    
+}
+
+.forcards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.homebottom {
+    padding-top: 80px;
+}
+.hsh1bott {
+    font-size: 80px;
+    margin-bottom: 100px;
+}
+
+.hmcard {
+    width: 550px;
+}
+.hmcardim {
+    height: 250px;
+}
+.hb1 {
+    height: 500px;
+    background-color: #f7f7f7;
+    box-shadow: 0px 0px 300px;
+    color: #E8E8E8;
+}
+
+.hb2 {
+    height: 500px;
+}
+
+.ci {
+    height: 400px;
+    width: 40px;
+}
+
+.floating-icon {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    bottom: 70px;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  
+  .floating-icon a {
+    border: 0px solid #fff;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mouse {
+    transform: translateY(-25%);
+    animation: bounce 0.8s ease infinite alternate;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(-25%);
+    }
+    100% {
+      transform: translateY(25%);
+    }
+}
+
+
+
+.homebott {
+   height: 1400px;
+   
+}
+
+.homechem {
+    display: flex;
+}
+
+.homechemim {
+    width: 1100px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 100px;
+    box-shadow: 0 0 20px;
+    color: #d8d8d8;
+    object-fit: cover;
+    object-position: center top;
+    opacity: 0.9;
+
+}
+
+.homechemcard {
+    height: 150px;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 16%;
+    box-shadow: 0 0 20px;
+    color: #3498db;
+    border-width: 0ch;
+    padding: 10px 20px;
+    
+}
+
+.homechemcard p {
+    font-size: 18px;
+}
+.homechembutt {
+    margin-top: 50px;
+    width: 400px;
+    height: 50px;
+    border-width: 0ch;
+    font-size: 20px;
+    box-shadow: inset 0 0 0 0;
+    transition: ease-out 0.3s;
+}
+
+.homechembutt:hover {
+    box-shadow: inset 400px 0 0 0 white;
+    color: #3498db;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #3498db;
+}
+
+.homeoil{
+    display: flex;
+    margin-top: 20px;
+}
+
+.homeoilim {
+    width: 1100px;
+    height: 500px;
+    margin-left: 25%;
+    margin-top: 100px;
+    box-shadow: 0 0 20px;
+    color: #d8d8d8;
+    object-fit: cover;
+}
+
+.homeoilcard {
+    height: 100px;
+    padding: 20px 20px;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 16%;
+    box-shadow: 0 0 20px;
+    color: #3498db;
+    border-width: 0ch;
+    
+}
